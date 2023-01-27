@@ -1,0 +1,50 @@
+
+@import url("reset.css");
+
+*{
+	padding: 10px;
+}
+.title,
+.sub-title{
+	color: black;
+}
+.text{
+	color: green;
+}
+#p-1{
+	color: red;
+}
+.list{
+	font-size: 25px;
+}
+a{
+	color: blue;
+}
+.films,
+.music{
+	color: salmon;
+}
+.music .header {
+	color: blueviolet;
+}
+.partstone > p{
+	color: fuchsia;
+}
+h3{
+	color: aquamarine;
+}
+.name2 ~ p{
+	color: darkblue;
+}
+.name2 + p{
+	color: yellowgreen
+}
+.partprison .content{
+	color: red
+}
+.partgoblet p{
+	color: chartreuse;
+}
+.films img{
+	height: 150px;
+}
