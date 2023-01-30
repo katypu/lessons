@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic&display=swap);
+@import url("reset.css");
+@font-face {
+	font-family: 'AnastasiaScript';
+	src: url('../fonts/AnastasiaScript.woff2') format('woff2'),
+	url('../fonts/AnastasiaScript.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+body{
+	background-color: aliceblue;
+}
+.image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image img{
+	width: 200px;
+}
+.title {
+	text-align: center;
+	font-family: "AnastasiaScript";
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1;
+}
+
+.main{
+	font-family: "PT Sans";
+}
+.list {
+	text-align: center;
+	text-transform: capitalize;
+	line-height: 1.2;
+}
+#p-1{
+	text-align: right;
+	font-weight: 700;
+	color: crimson;
+}
+h2 {
+	text-align: left;
+	text-decoration: underline;
+	line-height: 2;
+}
+#p-2{
+	text-decoration: underline dashed salmon;
+}
+.cats {
+	width: 200px;
+	font-size: 14px;
+	background-color: bisque;
+}
+.cats ~ p{
+	color: red;
+	text-transform: lowercase;
+}
+.character p{
+	text-shadow: 2px 3px 4px orangered;
+}
+
+.color a{
+	background-color: rgba(82, 97, 82, 0.632);
+	color: wheat;
+}
+.color__col + p{
+text-decoration:overline dotted;
+}
+.feed {
+	word-spacing: 10px;
+	color: antiquewhite;
+	background-color: rgba(70, 70, 131, 0.416);
+}
+.care {
+	font-size: 20px;
+	font-weight: 800;
+	font-style: italic;
+	text-align: justify;
+}
+.lifecycle {
+	text-decoration: line-through yellow;
+}
+.lifecycle p{
+	background-color: blue;
+	text-transform: capitalize;
+}
+.footer {
+	text-indent: 30px;
+	font-family: "Paprika";
+	line-height: 3;
+}
