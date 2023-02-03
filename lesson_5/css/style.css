@@ -1,0 +1,91 @@
+
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body{
+	font-family: 'Poppins';
+}
+.container{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.title, .title__content{
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+color: #212529;
+max-width: 605px;
+margin-bottom: 40px;
+padding-top: 30px;
+}
+.body,
+.content,
+.text{
+font-size: 14px;
+line-height: 25px;
+color: rgba(108, 117, 125, 1);
+max-width: 816px;
+margin: 0 auto;
+}
+body p{
+	padding-bottom: 30px;
+}
+.image__image{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-width: 1240px;
+	border-radius: 5px;
+
+}
+.images{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 0;
+	min-width: 605px;
+	min-height: 400px;
+	border-radius: 5px;
+}
+.image__3{
+	padding-left: 30px;
+}
+.text{
+	padding-top: 30px;
+}
+/* ===============PRACTICE===================== */
+.practice{
+	margin-top: 100px;
+}
+.container__container{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.title__title{
+	font-size: 34px;
+	padding: 20px;
+}
+.practice__text{
+	max-height: 300px;
+	overflow: scroll;
+	background-color: brown;
+}
+.form{
+	padding-left: 10px;
+	background-color: lightcoral;
+	display: block;
+	margin: 50px;
+}
+.list{
+	background-color: violet;
+	font-size: 0;
+}
+.list__item{
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px;
+}
+a{
+	display: inline-block;
+	margin-top: 20px;
+	color: green;
+}
