@@ -1,0 +1,141 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+.main__page {	
+	font-family: "Poppins";	
+	min-height: 600px;
+	min-width: 1440px;
+background: url(../img/01.jpg) center / cover no-repeat;	
+border-radius: 0px 5px 5px 0px;
+}
+.main__content{
+	padding-top: 330px;	
+	max-width: 605px;
+	margin-left: 100px;
+}
+.date {
+	color: rgba(229, 229, 229, 1);
+	font-size: 12px;
+line-height: 20px;
+margin-bottom: 15px;
+}
+.main__header {
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+color: #F8F9FA;
+margin-bottom: 15px;
+}
+.main__text {
+	font-size: 12px;
+line-height: 20px;
+color: #E5E5E5;
+}
+/*====================UNORDER=========================*/
+.unorder__page {
+font-family: "Inter";
+color: rgba(99, 115, 129, 1);
+font-size: 16px;
+line-height: 15px;
+font-weight: 700;
+}
+.unorder__header {
+margin-top: 30px;
+font-size: 26px;
+line-height: 28px;
+font-weight: 400;
+margin-bottom: 45px;
+}
+.unorder__container {
+max-width: 1170px;
+margin: 0 auto;
+}
+.row__list,
+.row2__list{
+display: flex;
+flex-direction: row;
+margin-bottom: 60px;
+justify-content: space-between;
+}
+.dots li{
+	background: url(../img/icons/square.svg) 0 9px no-repeat;
+}
+.ticks li{
+	background: url(../img/icons/tick.svg) 0 3px no-repeat;	
+}
+.greenticks li{
+	background: url(../img/icons/1tick2.svg) 0 3px no-repeat;	
+}
+.cross li{
+	background: url(../img/icons/cross.svg) 0 3px no-repeat;	
+}
+.arrow li{
+	background: url(../img/icons/arrow.svg) 0 9px no-repeat;	
+}
+.star li{
+	background: url(../img/icons//Groupstar.svg) 0 3px no-repeat;	
+}
+.list{
+min-width: 300px;
+min-height: 180px;
+}
+li{
+	padding-left: 25px;
+	min-height: 20px;
+	font-size: 16px;
+   line-height: 18px;
+	text-align: left;
+	margin-bottom: 18px;
+	padding-top: 5px;
+}
+/*====================STEREO=========================*/
+.stereo__page {
+	font-family: "Inter";
+	margin-top: 60px;
+	min-height: 560px;
+	min-width: 1440px;
+	background: url(../img/stereo/speaker\ 1.svg) 73% no-repeat,linear-gradient(115deg, rgba(244,247,255,0) 61%, rgba(48,86,211,0.08) 61%, rgba(244,247,255,0) 100%), linear-gradient(115deg, rgba(244,247,255,0) 67%, rgba(48,86,211,0.08) 67%, rgba(244,247,255,0) 100%) #F4F7FF;
+}
+.stereo__container {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+.content__stereo {
+	padding-top: 145px;
+	max-width: 570px;
+}
+.stereo__price {
+	color: rgba(48, 86, 211, 1);
+	font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+margin-bottom: 13px;
+}
+.stereo__header {
+	color: #212B36;
+	font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+margin-bottom: 18px;
+}
+.stereo__text {
+	font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #637381;
+margin-bottom: 35px;
+}
+.button {
+	margin-top: 5px;
+	display: inline-block;
+	background: #3056D3;
+border-radius: 30px;
+padding: 10px 30px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+text-align: center;
+}
