@@ -209,6 +209,9 @@ display: inline-block;
 	width: 116px;
 	display: inline-block;
 }
+.block-submenu__link:hover{
+text-decoration: underline;
+}
 .block-submenu__item_title {
 	margin: 0 0 20px 0;
 	font-weight: 600;
@@ -276,6 +279,10 @@ display: inline-block;
 	transform: rotate(-90deg);
 	transition: all 0.3s ease;
 }
+.sub-menu__block{
+		opacity: 0;
+		visibility: hidden;
+	}
 .sub-menu__item_dropdown:hover .sub-menu__block{
 	opacity: 1;
 	visibility: visible;
