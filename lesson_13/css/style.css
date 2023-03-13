@@ -22,7 +22,6 @@ body{
 /*================CAR=====================*/
 .content__car{
 	position: relative;
-	padding: 80px;
 	animation: car-ride 5s forwards, car-drive 3s linear 1 normal running 8s forwards, car-drive-2 3s linear 1 normal running 17s forwards;
 }
 
@@ -30,14 +29,14 @@ body{
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	top: 400px;
-	right: -10%;
+	top: 350px;
+	right: -5%;
 	animation: car-dog 3s linear 11s forwards, car-dog-reverse 1s linear 15s forwards ;
 }
 /*================ANIMATION==================*/
 @keyframes car-dog {
 	0% {
-		transform: translate(-10%, 0px);
+		transform: translate(-5%, 0px);
 	}
 	30%{
 		transform: translate(210px, -40px);
@@ -69,7 +68,7 @@ body{
 		transform: rotate(-180deg);
 	}
 	100%{
-		transform: translate(-10%, 0px);
+		transform: translate(-5%, 0px);
 		transform: rotate(-360deg);
 	}
 }
