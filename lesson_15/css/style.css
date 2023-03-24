@@ -39,7 +39,7 @@ line-height: 140%;
 color: #000000;
 text-align: center;
 }
-.column__title:not(:last-child){
+.minimalist__title:not(:last-child){
 	margin-bottom: 40px;
 }
 .minimalist__sub-title {
