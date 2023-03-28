@@ -1,0 +1,348 @@
+@import url("reset.css");
+@import url("common.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:300,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+body {
+	font-family: "Inter", sans-serif;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+[class*="__container"] {
+	max-width: 730px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header {
+	padding-top: 50px;
+   margin-bottom: 50px;
+}
+
+.header__title {
+font-family: 'Inter';
+font-weight: 700;
+font-size: 44px;
+line-height: 125%;
+color: #212B36;
+}
+.header__sub-title {
+	padding-top: 8px;
+	font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #637381;
+}
+/* ---------------------------- */
+.form {
+	padding: 50px;
+}
+/* ---------------------------- */
+.page__billing {
+	margin-bottom: 100px;
+}
+.billing__title {
+	font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   color: #212B36;
+}
+.title-details:not(:last-child) {
+		margin-bottom: 30px;
+}
+.billing__items {
+	display: flex;
+	flex-direction: column;
+}
+.billing__items:not(:last-child) {
+	margin-bottom: 35px;
+}
+.billing__item {
+	display: flex;
+   gap: 28px;
+   flex-wrap: wrap;
+}
+.billing__item:not(:last-child) {
+	margin-bottom: 30px;
+}
+.billing__input {
+	border: 1px solid #E7E7E7;
+   border-radius: 7px;
+   padding: 15px 25px;
+   flex: 0 1 336px;
+}
+.select-style {
+	font-family: Inter, sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color: inherit;
+   appearance: none;
+   background: url(../img/arrow.svg) 95% no-repeat;
+	color: #637381;
+}
+.item-textarea {
+	flex: 0 1 100%;
+   resize: vertical;
+   height: 180px;
+}
+.billing__checkbox {
+	margin-bottom: 55px;
+}
+
+.checkbox-billing__item:not(:last-child) {
+	margin-bottom: 25px;
+}
+.checkbox-billing__item {
+	position: relative;
+}
+.checkbox-billing__check {
+	position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   opacity: 0;
+}
+.checkbox-billing__label:before {
+	content: '';
+	flex: 0 1 22px;
+	width: 22px;
+	height: 22px;
+	border-radius: 4px;
+	border: 0.7px solid #E7E7E7;
+}
+.checkbox-billing__check:checked + .checkbox-billing__label:before {
+	content: '';
+	background: url(../img/checked.svg) center no-repeat;
+	width: 22px;
+	height: 22px;
+	border-radius: 4px;
+	border: 0.7px solid #E7E7E7;
+}
+.checkbox-billing__label {
+	cursor: pointer;
+   display: inline-flex;
+   align-items: flex-start;
+   gap: 14px;
+}
+
+.title-coupon:not(:last-child) {
+	margin-bottom: 25px;
+}
+.coupon-item {
+	gap: 20px;
+}
+.billing__apply {
+	font-weight: 600;
+   font-size: 16px;
+   line-height: 1.7;
+   color: #FFFFFF;
+   padding: 12px 22px;
+   background: #212B36;
+   border-radius: 5px;
+   transition: all 0.5s ease 0s;
+}
+.billing__apply:hover{
+	background-color:coral;
+}
+/* ------------SHIPPING---------------- */
+
+.shipping {
+	padding-bottom: 30px;
+}
+.shipping__container {
+	max-width: 636px;
+}
+.shipping__address {
+	border-bottom: 1px solid #C4C4C4;
+   width: 100%;
+   padding-bottom: 36px;
+   margin-bottom: 39px;
+}
+.shipping__title {
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.5;
+}
+.shipping__title:not(:last-child) {
+	margin-bottom: 34px;
+}
+.shipping__items {}
+.shipping__items:not(:last-child) {
+	margin-bottom: 14px;
+}
+.shipping__item {
+	display: flex;
+	gap: 30px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.shipping__item:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.shipping__label {
+	font-family: Roboto;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #3F3F3F;
+   flex-grow: 1;
+}
+.shipping__input {
+	font-family: Roboto;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #3F3F3F;
+   border: 1px solid #C4C4C4;
+   padding: 10px 16px;
+   flex: 0 1 450px;
+}
+.shipping__text {
+	font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.4;
+   color: #828282;
+}
+.shipping__text:not(:last-child) {
+	margin-bottom: 28px;
+}
+.shipping__login {
+	display: flex;
+   gap: 25px;
+   align-items: center;
+}
+.shipping__button {
+	font-family: 'Oswald';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.5;
+   text-align: center;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   padding: 15px 42px;
+   background: #000000;
+   transition: all 0.5s ease 0s;
+}
+.shipping__button:hover{
+	background-color: burlywood;
+}
+.shipping__link {
+	font-family: Roboto;
+   font-weight: 400;
+   Font-size: 14px;
+   line-height: 1.4;
+   color: #0F6DB1;
+   transition: all 0.5s ease 0s;
+}
+.shipping__link:hover{
+	color: #09426a;
+}
+.shipping__info {}
+.shipping__items-info {
+	margin-bottom: 80px;
+}
+.shipping__label span {
+	color: #EB5757;
+	padding-left: 5px;
+}
+.shipping__street {
+	flex: 0 1 450px;
+   display: flex;
+   flex-direction: column;
+   gap: 13px;
+}
+
+.street-input {
+	min-height: 44px;
+   flex: 0 1 100%;
+}
+.shipping-select {
+	appearance: none;
+	background: url(../img/arrow2.svg) 95% no-repeat;
+}
+.shipping__radio {
+	margin-bottom: 40px;
+}
+
+.radio__item {
+	position: relative;
+   padding: 15px 0;
+   gap: 110px;
+   display: flex;
+}
+.item-radio-01 {
+	border-top: 1px solid #C4C4C4;
+   width: 100%;
+}
+.radio__input {
+	position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   opacity: 0;
+}
+.radio__label {
+	cursor: pointer;
+   display: inline-flex;
+   align-items: center;
+   gap: 13px;
+   flex: 0 1 65px;
+   font-family: 'Roboto';
+   font-size: 14px;
+   line-height: 1.7;
+}
+.radio__input:checked + .radio__label {
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
+.radio__label::before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+.radio__input:checked + .radio__label::before {
+	border: 3px solid #000;
+}
+.radio__info {
+	display: flex;
+   flex: 0 1 210px;
+   justify-content: space-between;
+}
+.radio__label-text {
+	font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.43;
+	color: #3F3F3F;
+}
+.item-radio-02 {
+	border-top: 1px solid #C4C4C4;
+   width: 73%;
+}
+
+.shipping__next {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shipping__back {
+	font-family: 'Oswald';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   color: #828282;
+}
