@@ -24,13 +24,13 @@
 						<h2 class="billing__title title-details">Billing Details</h2>
 						<div class="billing__items">
 							<div class="billing__item">
-								<input autocomplete="off" name="username" placeholder="First name*" value="" type="text"
+								<input autocomplete="off" required="" name="username" placeholder="First name*" value="" type="text"
 									class="billing__input">
-								<input autocomplete="off" name="usersurname" placeholder="Last name*" value="" type="text"
+								<input autocomplete="off" required="" name="usersurname" placeholder="Last name*" value="" type="text"
 									class="billing__input">
 							</div>
 							<div class="billing__item">
-								<input autocomplete="off" name="useraddress" placeholder="Address*" value="" type="text"
+								<input autocomplete="off" required="" name="useraddress" placeholder="Address*" value="" type="text"
 									class="billing__input">
 								<input autocomplete="off" name="useraddress2" placeholder="Address line 2" value="" type="text"
 									class="billing__input">
@@ -44,18 +44,18 @@
 									<option value="5">Italy</option>
 									<option value="6">Germany</option>
 								</select>
-								<input autocomplete="off" name="usercity" placeholder="City/Town*" value="" type="text"
+								<input autocomplete="off" required="" name="usercity" placeholder="City/Town*" value="" type="text"
 									class="billing__input">
 							</div>
 							<div class="billing__item">
-								<input autocomplete="off" name="userzip" placeholder="Postcode/ZIP*" value="" type="text"
+								<input autocomplete="off" required="" name="userzip" placeholder="Postcode/ZIP*" value="" type="text"
 									class="billing__input">
-								<input class="billing__input" autocomplete="off" placeholder="Phone*" name="phone" type="tel">
+								<input class="billing__input" required="" autocomplete="off" placeholder="Phone*" name="phone" type="tel">
 							</div>
 							<div class="billing__item">
-								<input autocomplete="off" name="userzip" placeholder="Postcode/ZIP*" value="" type="text"
+								<input autocomplete="off" required="" name="userzip" placeholder="Postcode/ZIP*" value="" type="text"
 									class="billing__input">
-								<input class="billing__input" autocomplete="off" placeholder="Phone*" name="phone" type="tel">
+								<input class="billing__input" required="" autocomplete="off" placeholder="Phone*" name="phone" type="tel">
 							</div>
 							<div class="billing__item">
 								<textarea autocomplete="off" placeholder="Additional information" name="message"
@@ -96,7 +96,7 @@
 							</div>
 							<div class="shipping__item">
 								<label for="password" class="shipping__label">Password</label>
-								<input class="shipping__input" id="password" type="password" name="password"
+								<input class="shipping__input" required="" id="password" type="password" name="password"
 									placeholder="******************">
 							</div>
 							<div class="shipping__item">
@@ -141,7 +141,7 @@
 							<div class="shipping__item">
 								<label for="state" class="shipping__label">State/Province<span>*</span></label>
 								<select class="shipping__input shipping-select" id="state" name="state">
-									<option disabled="" selected="" value="Please select a region, state or province">Please
+									<option disabled="" required="" selected="" value="Please select a region, state or province">Please
 										select a region, state or province
 									</option>
 									<option value="Ukraine">Ukraine</option>
