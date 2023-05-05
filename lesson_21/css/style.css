@@ -271,7 +271,6 @@ input {
 .submenu__subitems {
   font-size: 1rem;
   padding: 0.625em 0 0 0;
-  min-width: none;
 }
 
 .submenu__subitem:not(:last-child) {
@@ -280,7 +279,7 @@ input {
 
 .submenu__link-subitem {
   font-weight: 500;
-  color: #F8F9FA 60%;
+  color: #F8F9FA;
   line-height: 2.1;
   transition: color 0.3s;
 }
