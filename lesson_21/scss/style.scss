@@ -9,7 +9,7 @@ $color_2: #495057;
 $color_3: #F8F9FA;
 $color_4: #DDBEA9;
 $color_5: rgba(248, 249, 250, 0.5019607843);
-$color_6: #F8F9FA 60%;
+$color_6: #F8F9FA;
 $color_7: #E5E5E5;
 $color_8: rgba(73, 80, 87, 0.5);
 $color_9: #212529;
@@ -218,7 +218,6 @@ input {
 .submenu__subitems {
 	font-size: 1rem;
 	padding: 0.625em 0 0 0;
-	min-width: none;
 }
 .submenu__subitem {
 	&:not(:last-child) {
